@@ -1,0 +1,274 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+/* .cbt {
+    width: 100%;
+    min-height: 100%;
+    padding: 0%;
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)),url("https://images.wallpapersden.com/image/download/mountain-retreat_bG5la2WUmZqaraWkpJRqZmdlrWdtbWU.jpg");
+    
+} */
+
+body{
+    background-color: #00041d;
+}
+.links{
+    display: flex;
+} 
+
+#information1 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 100px;
+    font-family:Arial, Helvetica, sans-serif, albertsans
+}
+
+#information {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif, albertsans
+}
+
+#Hello {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif
+}
+#tagline {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif, albertsans
+}
+
+#space{
+    margin: 20px;
+}
+
+
+.container {
+    width: 100%;
+    min-height: 15vh;
+    padding: 0;
+    
+}
+
+.search-bar {
+width: 50%;
+margin: auto;
+max-width: 700px;
+max-height: 33px;
+background: rgba(255, 255, 255, 0.1);
+display: flex;
+align-items: center;
+border-radius: 60px;
+padding: 10px 20px;
+backdrop-filter: blur(4px) saturate(180%);
+
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+::placeholder{
+    color:#ffffff;
+}
+.search-bar button img{
+    width: 19px
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    height: 37px;
+    width: 37px;
+    background: #58629b;
+    cursor: pointer;
+
+}
+
+.jayashalilive {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 3px 15px 3px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 100px;
+  
+}
+#text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.boui {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: auto;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 30px;
+    
+}
+#textboui{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#studio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 33px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+#jayashali{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 33px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+#Whatsapp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 33px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+#Transalate{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 33px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+#International{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 33px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+#Unicode{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 33px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+#Unsplash{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    max-width: 150px;
+    max-height: 33px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.alllinks{
+    display: flex;
+    text-align: center;
+    
+}
